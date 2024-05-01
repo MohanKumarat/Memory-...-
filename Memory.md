@@ -13,14 +13,14 @@ The storage location is also called a memory location. Memory locations are iden
  
 
 A memory unit consists of data lines, address selection lines, and control lines that 
-specify the direction of transfer.
+specify the direction of transfer
 
 Memory units:
-
-
 Units of Memory
 Memory units are used to measure the size and represent data. Some of the commonly used 
 memory units are:
+![1](https://github.com/MohanKumarat/Memory-...-/assets/143737281/ca62d439-35bc-4895-87ef-336b691afbf0)
+
 
 1. Bit
 The first memory location in a computer is bit. The smallest measurement unit for 
@@ -108,6 +108,9 @@ Unimaginable amounts of data, such as
 the equivalent of storing all of the material on the internet numerous times or tracking vast amounts, may be 
 stored in yottabytes.
 
+![2](https://github.com/MohanKumarat/Memory-...-/assets/143737281/3f99fe96-5b52-41a9-9fab-78d890ed5c7c)
+
+
 File Sizes: When you download a file from the internet, its size is often specified in units like kilobytes (KB), 
 megabytes (MB), or gigabytes (GB). 
 For example, a music album might be 100 MB in size.
@@ -153,6 +156,9 @@ Virtual memory. A memory management technique where secondary memory can be used
 of the main memory. Virtual memory uses hardware and software to enable a computer to compensate for
 physical memory shortages by temporarily transferring data from RAM to disk storage.
 
+![8](https://github.com/MohanKumarat/Memory-...-/assets/143737281/afc1bc90-4a68-476c-86e8-c436613e81e1)
+
+
 Memory Organizing:
 
 • Memory is organized into groups of n bits known as words, Where n is the word length.
@@ -160,6 +166,11 @@ Memory Organizing:
 • Modern computers typically have word lengths ranging from 16 To 64 bits.
 
 • A 32-bit word can store a 32-bit signed number or four ASCII- encoded characters, each occupying 8 bits 
+
+![3](https://github.com/MohanKumarat/Memory-...-/assets/143737281/619a064a-3bf4-4564-9c02-72d25fe44947)
+
+![4](https://github.com/MohanKumarat/Memory-...-/assets/143737281/c0c04471-1f22-4c8d-b592-e025a2eceb84)
+
 
 Memory Address:
 A memory address is a unique identifier that points to a specific location in a computer’s memory. 
@@ -183,6 +194,9 @@ significant digit on the left.
 Little Endian: In little endian format, the least significant byte is stored at the lowest memory address
 , and the most significant byte is stored at the highest memory address. It’s like writing numbers from 
 right to left, with the least significant digit on the left.
+
+![6](https://github.com/MohanKumarat/Memory-...-/assets/143737281/1707abcc-61c3-410c-947a-5163760455df)
+
 
 For example, IBM mainframes and Motorola processors typically use big endian, while x86 and ARM processors commonly 
 use little endian. Interoperability between systems with different endianness can require conversion routines.
@@ -209,6 +223,13 @@ its original location.
 7. Compare: Comparing memory involves examining the contents of two memory locations to determine if they are equal
 , greater than, 
 or less than each other.
+READ OPERATION:
+![READ](https://github.com/MohanKumarat/Memory-...-/assets/143737281/2dafa153-f172-4ea1-99a1-285b2e0f109c)
+
+WRITE OPERATION:
+![WRITE](https://github.com/MohanKumarat/Memory-...-/assets/143737281/f1ce754a-6a56-4631-8f08-4b1868042540)
+
+
 In this example, memory operations are essential for managing the contacts data efficiently and ensuring that the 
 user
 interface remains 
