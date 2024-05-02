@@ -1,4 +1,4 @@
-Memory:
+# Memory:
 
 Memory devices are digital systems that store data either temporarily or for a long term.
 Digital computers to hard disks have built-in memory devices that can store the data of users or manufacturers.
@@ -15,8 +15,9 @@ The storage location is also called a memory location. Memory locations are iden
 A memory unit consists of data lines, address selection lines, and control lines that 
 specify the direction of transfer
 
-Memory units:
-Units of Memory
+# Memory units:
+
+## Units of Memory
 Memory units are used to measure the size and represent data. Some of the commonly used 
 memory units are:
 ![1](https://github.com/MohanKumarat/Memory-...-/assets/143737281/ca62d439-35bc-4895-87ef-336b691afbf0)
@@ -115,7 +116,7 @@ File Sizes: When you download a file from the internet, its size is often specif
 megabytes (MB), or gigabytes (GB). 
 For example, a music album might be 100 MB in size.
 
-Types of Computer Memory
+# Types of Computer Memory
 
 Cache memory. This temporary storage area, known as a cache, is more readily available to the processor 
 than the computer’s main memory source. It is also called CPU memory because it is typically integrated 
@@ -159,7 +160,7 @@ physical memory shortages by temporarily transferring data from RAM to disk stor
 ![8](https://github.com/MohanKumarat/Memory-...-/assets/143737281/afc1bc90-4a68-476c-86e8-c436613e81e1)
 
 
-Memory Organizing:
+# Memory Organizing:
 
 • Memory is organized into groups of n bits known as words, Where n is the word length.
 
@@ -172,7 +173,7 @@ Memory Organizing:
 ![4](https://github.com/MohanKumarat/Memory-...-/assets/143737281/c0c04471-1f22-4c8d-b592-e025a2eceb84)
 
 
-Memory Address:
+# Memory Address:
 A memory address is a unique identifier that points to a specific location in a computer’s memory. 
 It’s like a street address that tells you where a particular house is located in a city. In computing,
 memory addresses are used to locate and access data stored in memory.
@@ -184,7 +185,7 @@ This allows them to manipulate variables, arrays, objects, and other data struct
 Understanding memory addresses is crucial for tasks such as memory management, pointer manipulation, 
 and low-level programming.
 
-Big endian and little endian addressing:
+## Big endian and little endian addressing:
 
 Big Endian: In big endian format, the most significant byte (the byte with the highest value) of a
 multi-byte data type is stored at the lowest memory address, while the least significant byte is 
@@ -201,7 +202,7 @@ right to left, with the least significant digit on the left.
 For example, IBM mainframes and Motorola processors typically use big endian, while x86 and ARM processors commonly 
 use little endian. Interoperability between systems with different endianness can require conversion routines.
 
-Memory operations:
+# Memory operations:
 
 Memory operations encompass a variety of tasks related to manipulating data stored in a computer’s memory. 
 Here are some common memory operations:
