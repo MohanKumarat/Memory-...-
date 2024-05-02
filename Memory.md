@@ -118,42 +118,52 @@ For example, a music album might be 100 MB in size.
 
 # Types of Computer Memory
 
-## Cache memory. This temporary storage area, known as a cache, is more readily available to the processor 
+## Cache memory. 
+This temporary storage area, known as a cache, is more readily available to the processor 
 than the computer’s main memory source. It is also called CPU memory because it is typically integrated 
 directly into the CPU chip or placed on a separate chip with a bus interconnect with the CPU.
 
-## RAM.  It is one of the parts of the Main memory, also famously known as Read Write Memory. Random Access memory 
+## RAM.  
+It is one of the parts of the Main memory, also famously known as Read Write Memory. Random Access memory 
 is present on the motherboard and the computer’s data is temporarily stored in RAM. As the name says, 
 RAM can help in both Read and write.
 
-## D RAM (Dynamic RAM): D RAM uses capacitors and transistors and stores the data as a charge on the
+## D RAM (Dynamic RAM): 
+D RAM uses capacitors and transistors and stores the data as a charge on the
 capacitors. They contain thousands of memory cells. It needs refreshing of charge on capacitor after
 a few milliseconds. This memory is slower than S RAM.
 
-## S RAM (Static RAM): S RAM uses transistors and the circuits of this memory are capable of retaining their
+## S RAM (Static RAM):
+S RAM uses transistors and the circuits of this memory are capable of retaining their
 state as long as the power is applied. This memory consists of the number of flip flops with each flip flop
 storing 1 bit. It has less access time and hence, it is faster.
 
-## ROM: ROM full form is Read Only Memory. ROM is a non volatile memory and it is used to store important 
+## ROM: 
+ROM full form is Read Only Memory. ROM is a non volatile memory and it is used to store important 
 information which is used to operate the system. We can only read the programs and data stored on it 
 and can not modify of delete it.
 
-## MROM(Masked ROM): Hard-wired devices with a pre-programmed collection of data or instructions were the 
+## MROM(Masked ROM):
+Hard-wired devices with a pre-programmed collection of data or instructions were the 
 first ROMs. Masked ROMs are a type of low-cost ROM that works in this way.
 
-## PROM (Programmable Read Only Memory): This read-only memory is modifiable once by the user. The user 
+## PROM (Programmable Read Only Memory): 
+This read-only memory is modifiable once by the user. The user 
 purchases a blank PROM and uses a PROM program to put the required contents into the PROM. Its content 
 can’t be erased once written.
 
-## EPROM (Erasable Programmable Read Only Memory): EPROM is an extension to PROM where you can erase the 
+## EPROM (Erasable Programmable Read Only Memory): 
+EPROM is an extension to PROM where you can erase the 
 content of ROM by exposing it to Ultraviolet rays for nearly 40 minutes.
 
-## EEPROM (Electrically Erasable Programmable Read Only Memory): Here the written contents can be erased 
+## EEPROM (Electrically Erasable Programmable Read Only Memory): 
+Here the written contents can be erased 
 electrically. You can delete and reprogramme EEPROM up to 10,000 times. Erasing and programming take 
 very little time, i.e., nearly  4 -10 ms(milliseconds). Any area in an EEPROM can be wiped and programmed 
 selectively.
 
-## Virtual memory. A memory management technique where secondary memory can be used as if it were a part 
+## Virtual memory. 
+A memory management's technique where secondary memory can be used as if it were a part 
 of the main memory. Virtual memory uses hardware and software to enable a computer to compensate for
 physical memory shortages by temporarily transferring data from RAM to disk storage.
 
@@ -187,12 +197,14 @@ and low-level programming.
 
 ## Big endian and little endian addressing:
 
-## Big Endian: In big endian format, the most significant byte (the byte with the highest value) of a
+## Big Endian: 
+In big endian format, the most significant byte (the byte with the highest value) of a
 multi-byte data type is stored at the lowest memory address, while the least significant byte is 
 stored at the highest memory address. It’s like writing numbers from left to right, with the most 
 significant digit on the left. 
 
-## Little Endian: In little endian format, the least significant byte is stored at the lowest memory address
+## Little Endian: 
+In little endian format, the least significant byte is stored at the lowest memory address
 , and the most significant byte is stored at the highest memory address. It’s like writing numbers from 
 right to left, with the least significant digit on the left.
 
@@ -207,21 +219,28 @@ use little endian. Interoperability between systems with different endianness ca
 Memory operations encompass a variety of tasks related to manipulating data stored in a computer’s memory. 
 Here are some common memory operations:
 
-## 1. Read: This operation involves retrieving data from a specific memory location and transferring 
+## 1. Read:
+This operation involves retrieving data from a specific memory location and transferring 
 it to a processor
 register or another location in memory.
-## 2. Write: Writing to memory involves storing data from a processor register or another memory location 
+## 2. Write: 
+Writing to memory involves storing data from a processor register or another memory location 
 into a 
 specific memory address.
-## 3. Allocate: Allocating memory involves reserving a block of memory for storing data. This is commonly done dynamically 
+## 3. Allocate: 
+Allocating memory involves reserving a block of memory for storing data. This is commonly done dynamically 
 during program execution using functions like malloc() in C or new operator in languages like C++ and Java.
-## 4. Free: Freeing memory deallocates previously allocated memory, making it available for other uses. This is important 
+## 4. Free: 
+Freeing memory deallocates previously allocated memory, making it available for other uses. This is important 
 to prevent memory leaks and manage memory efficiently.
-## 5. Copy: Copying data from one memory location to another involves reading data from one location and writing it to 
+## 5. Copy: 
+Copying data from one memory location to another involves reading data from one location and writing it to 
 another.
-## 6. Move: Moving data involves transferring data from one memory location to another while potentially modifying 
+## 6. Move: 
+Moving data involves transferring data from one memory location to another while potentially modifying 
 its original location.
-## 7. Compare: Comparing memory involves examining the contents of two memory locations to determine if they are equal
+## 7. Compare:
+Comparing memory involves examining the contents of two memory locations to determine if they are equal
 , greater than, 
 or less than each other.
 ## READ OPERATION:
